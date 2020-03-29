@@ -64,4 +64,7 @@ object Main extends App {
   log.info("urlcrazy")
   val urlcrazyCmd = s"urlcrazy -o ${resultsPath.toPath}/urlcrazy.txt $domain"
   executeCommand(urlcrazyCmd)
+
+  log.info("----------")
+  
 }
