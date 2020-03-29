@@ -1,0 +1,26 @@
+~run
+~run uncfsu.edu
+compile
+build
+compile
+run
+run uncfsu.edu
+compile
+reload
+compile
+~run
+~run uncfsu.edu
+reload
+compil
+compile
+~run
+~run uncfsu.edu
+clean
+reload
+compile
+~run uncfsu.edu
+reload
+clean
+compile
+~run uncfsu.edu
+~run uncfsu.edu /home/enigma/Documents/uncfsu.edu

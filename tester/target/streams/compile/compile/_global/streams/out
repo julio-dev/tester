@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/enigma/Documents/tester/tester/src/main/scala/Main.scala:18:36: Reference to uninitialized value resultsDir[0m
+[0m[[0m[33mwarn[0m] [0m[0m  log.info("Results Directory: " + resultsDir)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
