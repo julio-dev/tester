@@ -66,5 +66,7 @@ object Main extends App {
   executeCommand(urlcrazyCmd)
 
   log.info("----------")
-  
+
+  log.info("firewalk")  
+
 }

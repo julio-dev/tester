@@ -370,3 +370,15 @@
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/enigma/Documents/tester/tester/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0mdebug[0m] [0m[0mroot / Compile / run - Accepted event for /home/enigma/Documents/tester/tester/src/main/scala/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/enigma/Documents/tester/tester/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0minfo[0m] [0m[0m20. Monitoring source files for root/run uncfsu.edu /home/enigma/Documents/uncfsu.edu...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/enigma/Documents/tester/tester/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/enigma/Documents/tester/tester/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/enigma/Documents/tester/tester/src/main/scala/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(8d213c493f6be27351d874ab960bf54b4a183021))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/enigma/Documents/tester/tester/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/enigma/Documents/tester/tester/src/main/scala/Main.scala, 2020-Mar-29 00:56:10.294 ET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/enigma/Documents/tester/tester/src/main/scala/Main.scala. Running 'run uncfsu.edu /home/enigma/Documents/uncfsu.edu'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/enigma/Documents/tester/tester/src/main/scala/Main.scala, 2020-Mar-29 00:56:10.294 ET).[0m
+[0m[[0m[0mdebug[0m] [0m[0mroot / Compile / run - Accepted event for /home/enigma/Documents/tester/tester/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/enigma/Documents/tester/tester/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mroot / Compile / run - Accepted event for /home/enigma/Documents/tester/tester/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/enigma/Documents/tester/tester/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
