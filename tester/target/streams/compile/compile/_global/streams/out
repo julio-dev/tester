@@ -1,4 +1,5 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/enigma/Documents/tester/tester/src/main/scala/Main.scala:18:36: Reference to uninitialized value resultsDir[0m
-[0m[[0m[33mwarn[0m] [0m[0m  log.info("Results Directory: " + resultsDir)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/enigma/Documents/tester/tester/src/main/scala/Main.scala:60:17: not enough arguments for method executeCommand: (command: String)String.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter command.[0m
+[0m[[0m[31merror[0m] [0m[0m  executeCommand()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
