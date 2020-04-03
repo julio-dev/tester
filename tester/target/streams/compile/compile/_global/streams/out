@@ -1,5 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/enigma/Documents/tester/tester/src/main/scala/Main.scala:60:17: not enough arguments for method executeCommand: (command: String)String.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter command.[0m
-[0m[[0m[31merror[0m] [0m[0m  executeCommand()[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/enigma/Documents/tester/tester/src/main/scala/Main.scala:51:21: missing parameter type for expanded function ((<x$1: error>) => x$1.getText)[0m
+[0m[[0m[31merror[0m] [0m[0m      log.debug(s"${_.getText}")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

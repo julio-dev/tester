@@ -26,6 +26,8 @@ version := "0.0.2"
 libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2"
+libraryDependencies += "org.scalatest" % "scalatest_2.13" % "3.1.1" % "test"
+libraryDependencies += "org.seleniumhq.selenium" % "selenium-java" % "3.141.59"
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go
 // and fetch when it starts up.
@@ -78,5 +80,5 @@ lazy val root = (project in file(".")).
   enablePlugins(BuildInfoPlugin).
   settings(
     buildInfoKeys := Seq[BuildInfoKey](name, version, scalaVersion, sbtVersion),
-    buildInfoPackage := "tester"
+    buildInfoPackage := "com.julioj.tester"
   )

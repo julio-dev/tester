@@ -6,8 +6,8 @@ import scala.Predef._
 case object BuildInfo {
   /** The value is "tester". */
   val name: String = "tester"
-  /** The value is "0.0.1". */
-  val version: String = "0.0.1"
+  /** The value is "0.0.2". */
+  val version: String = "0.0.2"
   /** The value is "2.13.1". */
   val scalaVersion: String = "2.13.1"
   /** The value is "1.3.2". */

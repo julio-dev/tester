@@ -24,3 +24,20 @@ clean
 compile
 ~run uncfsu.edu
 ~run uncfsu.edu /home/enigma/Documents/uncfsu.edu
+clean
+compile
+~run uncfsu.edu /home/enigma/Documents/uncfsu.edu
+clean
+compile
+compil
+compile
+clean compile
+clean
+compile
+~run uncfsu.edu /home/enigma/Documents/uncfsu.edu
+help
+compile
+clean
+compile
+run
+run uncfsu.edu /home/enigma/Documents/uncfsu.edu

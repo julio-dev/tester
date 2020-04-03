@@ -1,17 +1,1 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/enigma/Documents/tester/tester/target/scala-2.13/tester_2.13-0.0.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes/Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes/Main$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes/Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	tester[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes/tester[0m
-[0m[[0m[0mdebug[0m] [0m[0m	tester/BuildInfo$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes/tester/BuildInfo$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	tester/BuildInfo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/enigma/Documents/tester/tester/target/scala-2.13/classes/tester/BuildInfo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/enigma/Documents/tester/tester/target/scala-2.13/tester_2.13-0.0.2.jar[0m

@@ -1,22 +1,24 @@
-import sys.process._
+package com.julioj.tester
+
 import com.typesafe.scalalogging.Logger
 import java.io.File
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
+import java.time.Duration
+import org.openqa.selenium.By
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.firefox.FirefoxDriver
+import org.openqa.selenium.firefox.FirefoxOptions
+import org.openqa.selenium.support.ui.WebDriverWait
+import org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated
 
 object Main extends App {
-
-  def executeCommand(command: String): String = {
-    val output = command.!!
-    output
-  }
-
   val log = Logger("tester")
   val version: String = tester.BuildInfo.version
   val domain: String = args(0)
   val resultsDir: String = args(1)
-
-  log.info("----------")
 
   log.info(s"tester v$version")
   log.info(s"Domain Being Tested: $domain")
@@ -35,38 +37,20 @@ object Main extends App {
 
   log.info("----------")
 
-  log.info("dnsenum")
-  val dnsenumCmd = s"dnsenum -o ${resultsPath.toPath}/dnsenum.xml $domain"
-  executeCommand(dnsenumCmd)
+  log.info("OTG-INFO-001 - Conduct search engine discovery/reconnaissance for information leakage.")
+  val options: FirefoxOptions = new FirefoxOptions()
+  options.setHeadless(true)
+  val firefox: WebDriver = new FirefoxDriver(options)
 
-  log.info("----------")
+  val implicitWait = new WebDriverWait(firefox, 10)
 
-  log.info("dnsmap")
-  val dnsmapCmd = s"dnsmap $domain -r ${resultsPath.toPath}/dnsmap.txt"
-  executeCommand(dnsmapCmd)
-
-  log.info("----------")
-
-  log.info("dnsrecon")
-  val dnsreconAxfrCmd = s"dnsrecon -t axfr -d $domain -x ${resultsPath.toPath}/dnsreconaxfr.xml"
-  val dnsreconCmd = s"dnsrecon -d $domain -x ${resultsPath.toPath}/dnsrecon.xml"
-  executeCommand(dnsreconAxfrCmd)
-  executeCommand(dnsreconCmd)
-
-  log.info("----------")
-  
-  log.info("fierce")
-  val fierceCmd = s"fierce -dns $domain -file ${resultsPath.toPath}/fierce.txt"
-  executeCommand(fierceCmd)
-
-  log.info("----------")
-
-  log.info("urlcrazy")
-  val urlcrazyCmd = s"urlcrazy -o ${resultsPath.toPath}/urlcrazy.txt $domain"
-  executeCommand(urlcrazyCmd)
-
-  log.info("----------")
-
-  log.info("firewalk")  
-
+  try {
+    firefox.get(s"https://www.google.com/search?q=site%3A$domain")
+    val citeTags = firefox.findElements(By.tagName("cite"))
+    citeTags.forEach { citeTag =>
+      log.debug(s"${citeTag.getText}")
+    }
+  } finally {
+    firefox.quit()
+  }
 }
